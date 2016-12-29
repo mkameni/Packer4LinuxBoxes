@@ -1,0 +1,12 @@
+{
+  "_comment": "Build with `packer build -var-file=centos7.json centos-base.json`",
+  "vm_name": "Packer-Centos7",
+  "cpus": "1",
+  "disk_size": "20536",
+  "memory": "1024",
+  "iso_checksum": "71a7aa147877b413497cdff5b1e0aa5bc0c9484f",
+  "iso_checksum_type": "sha1",
+  "iso_name": "CentOS-7-x86_64-Minimal-1611.iso",
+  "iso_url": "http://centos.mirror.iweb.ca/7/isos/x86_64/CentOS-7-x86_64-Minimal-1611.iso",
+  "kickstart": "ks7.cfg"
+}
